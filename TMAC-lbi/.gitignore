@@ -1,0 +1,28 @@
+*~
+*.pyc
+MOTAC/include/*~
+
+# Ignore any executables
+bin/*
+
+# Ignore Mac specific files
+.DS_Store
+
+build/*
+
+matlab/*.pdf
+matlab/*_t*.m
+
+# Ignore the executables in the test folder
+test/*.exe
+
+# Ignore build files for docs
+doc/build/*
+doc/build/*/*
+doc/build/*/*/*
+doc/build/*/*/*/*
+doc/slides/*.pdf
+
+data/*
+
+!data/*.md
